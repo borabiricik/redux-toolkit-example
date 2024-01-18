@@ -1,9 +1,9 @@
-import Counter from "./components/Counter"
+import CounterRedux from "./components/CounterRedux"
 
 const HomePage = () => {
   return (
     <div className="flex items-center justify-center h-full">
-      <Counter />
+      <CounterRedux />
     </div>
   )
 }
